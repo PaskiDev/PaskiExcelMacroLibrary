@@ -10,6 +10,7 @@ Sub AddSheetsFromList()
     
     ' set range for column
     Set col = Application.InputBox(Prompt:="Select the column for the sheet names.", Type:=8)
+    ' set name of sheet template to use
     tSheet = Application.InputBox(Prompt:="Set the name of the sheet you want to use as template.", Type:=2)
     
     ' iterator to check values from list
